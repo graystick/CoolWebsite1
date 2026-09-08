@@ -1,0 +1,46 @@
+body {
+    font-family:"Victor Mono", monospace;
+    font-family: "Victor Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.navBar{
+    display:flex;
+    justify-content: center;
+    gap:1.5rem;
+    overflow: hidden;
+    text-decoration:none;
+    padding:2rem;
+}
+
+.navBar a:link{
+    background-color: white;
+    color:black;
+    text-decoration: none;
+}
+
+.navBar a:visited{
+    background-color: white;
+    color: black;
+    text-decoration:none;
+}
+
+
+.navBar a:hover{
+    background-color: black;
+    color: white;
+    text-decoration:none;
+}
+
+.navBar a:active{
+    background-color: white;
+    color:white;
+    text-decoration:none;
+}
