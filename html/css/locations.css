@@ -44,3 +44,9 @@ body {
     color:white;
     text-decoration:none;
 }
+
+.section {
+    display: flex;
+    overflow: hidden;
+}
+
