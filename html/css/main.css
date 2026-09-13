@@ -102,3 +102,26 @@ footer{
 .prodWrap h1{
     font-size:medium;
 }
+
+.mainIntro{
+    display:flex;
+    overflow:hidden;
+    align-items: center;
+}
+
+.mainIntroimg{
+    max-width: 50vw;
+    max-height: 30vh;
+    padding:5rem;
+}
+
+.mainIntroimg img{
+    max-width: 100%;
+    max-height:100%;
+    object-fit: contain;
+}
+
+.mainIntrotxt{
+    padding:5rem;
+
+}
