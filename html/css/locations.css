@@ -45,8 +45,33 @@ body {
     text-decoration:none;
 }
 
+.page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .section {
     display: flex;
     overflow: hidden;
+    justify-content: center;
+    
 }
 
+.locationImg{
+    max-width: 50vw;
+    max-height: 40vh;
+    align-items: center;
+    overflow:hidden;
+}
+.locationImg img{
+    padding:1.5rem;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.locationText{
+    padding:1.5rem;
+}
