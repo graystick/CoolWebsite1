@@ -8,6 +8,8 @@ body {
     background-color: white;
     padding: 1rem;
     text-align: center;
+    max-width:100vw;
+    overflow-x:hidden;
 
 }
 
@@ -43,4 +45,37 @@ body {
     background-color: white;
     color:white;
     text-decoration:none;
+}
+
+
+.bgvidContainer{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+}
+
+.bgvidContainer video{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.textOverlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: 1;
+}
+
+.textOverlay h1{
+    color:white;
+}
+
+.textOverlay p{
+    color:white;
 }
