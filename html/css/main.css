@@ -1,3 +1,6 @@
+html{
+    scroll-behavior:smooth;
+}
 body {
     font-family:"Victor Mono", monospace;
     font-family: "Victor Mono", monospace;
@@ -48,7 +51,7 @@ body {
 }
 
 section.vidscroll{
-    height:600vh;
+    height:500vh;
     position:relative;
 }
 
@@ -72,10 +75,14 @@ section.vidscroll div.story{
     width:100%;
 }
 
-
-.homeText{
-    padding:15rem;
+section.vidscroll div.story div{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .productContainer{
     display:flex;
