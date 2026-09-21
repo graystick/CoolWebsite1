@@ -49,6 +49,7 @@ body {
 
 section.vidscroll{
     height:600vh;
+    position:relative;
 }
 
 section.vidscroll div.holder{
@@ -61,7 +62,14 @@ section.vidscroll video{
     width:100%;
     height:100%;
     object-fit: cover;
+    z-index: 2;
+}
 
+section.vidscroll div.story{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
 }
 
 
