@@ -79,3 +79,35 @@ body {
 .textOverlay p{
     color:white;
 }
+
+section.content{
+    height:3000px;
+    position:relative;
+
+}
+
+section.content video{
+    width:100%;
+    height:100%;
+}
+
+section.content div{
+    position:sticky;
+    left:0;
+    top:0;
+}
+
+section.content div.text{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100;
+}
+
+section.content div.text div{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
