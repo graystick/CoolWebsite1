@@ -1,4 +1,4 @@
-const section= document.querySelector("section.vidscroll")
+const section = document.querySelector("section.vidscroll")
 const vid = section.querySelector("video")
 
 vid.pause()
