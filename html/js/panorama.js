@@ -1,1 +1,0 @@
-const script = document.querySelector(#panorama);
